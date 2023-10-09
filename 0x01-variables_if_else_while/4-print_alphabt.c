@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+/*
+ * main = Prints the alphabet in lowercase except for 'q' and 'e'
+ */
+
+int main(void)
+{
+  char low_alpha = 'a';
+  
+  while (low_alpha <= 'z')
+    {
+      if (low_alpha != 'q' && low_alpha != 'e')
+	{
+      	  putchar(low_alpha);
+	}
+      low_alpha++;
+    }
+  putchar('\n');
+  return (0);
+}
